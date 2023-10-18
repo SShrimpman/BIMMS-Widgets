@@ -6,123 +6,256 @@
     <title>BIMMS Code Prep</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900">
+<body class="bg-gray-900 m-0">
     <!-- Code of the mouse tracking hover -->
-    <!-- <div id="circle"
-         class="z-10 fixed flex justify-center items-center rounded-full h-28 w-28 shadow-[0_0_10px_0_rgba(255,255,255,1)] bg-white text-opacity-0 pointer-events-none mix-blend-exclusion transition-all ease-out duration-500">
-        Read More
-    </div>
-    <div class="flex justify-center items-center h-screen">
-        <button class="hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">Click on me</button>
-    </div>
-    <script>
-        const circle = document.getElementById('circle');
-        document.addEventListener('mousemove', (e) => {
-            const height = circle.offsetHeight;
-            const width = circle.offsetWidth;
+        <!-- <div id="circle"
+            class="z-10 fixed flex justify-center items-center rounded-full h-28 w-28 shadow-[0_0_10px_0_rgba(255,255,255,1)] bg-white text-opacity-0 pointer-events-none mix-blend-exclusion transition-all ease-out duration-500">
+            Read More
+        </div>
+        <div class="flex justify-center items-center h-screen">
+            <button class="hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">Click on me</button>
+        </div>
+        <script>
+            const circle = document.getElementById('circle');
+            document.addEventListener('mousemove', (e) => {
+                const height = circle.offsetHeight;
+                const width = circle.offsetWidth;
 
-            setTimeout(() => {
-                circle.style.left = `${e.pageX - width/2}px`;
-                circle.style.top = `${e.pageY - height/2}px`;
-            }, 20)
-        })
-    </script> -->
+                setTimeout(() => {
+                    circle.style.left = `${e.pageX - width/2}px`;
+                    circle.style.top = `${e.pageY - height/2}px`;
+                }, 20)
+            })
+        </script> -->
 
     <!-- Code of the hover of the Cards -->
-    <!-- <div class="flex justify-center mt-32">
-        <div class="grid grid-cols-3 gap-3 text-white">
-            <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
-                <img class="h-full w-full" src="./Image1.png">
-                <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
-                <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
-                    beatae, magnam similique?
-                </span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
-                    <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
-                </svg>
-            </div>
-            <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
-                <img class="h-full w-full" src="./Image2.png">
-                <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
-                <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
-                    beatae, magnam similique?
-                </span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
-                    <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
-                </svg>
-            </div>
-            <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
-                <img class="h-full w-full" src="./Image3.jpg">
-                <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
-                <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
-                    beatae, magnam similique?
-                </span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
-                    <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
-                </svg>
+        <!-- <div class="flex justify-center mt-32">
+            <div class="grid grid-cols-3 gap-3 text-white">
+                <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                    <img class="h-full w-full" src="./Image1.png">
+                    <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                    <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                        beatae, magnam similique?
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                    </svg>
+                </div>
+                <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                    <img class="h-full w-full" src="./Image2.png">
+                    <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                    <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                        beatae, magnam similique?
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                    </svg>
+                </div>
+                <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                    <img class="h-full w-full" src="./Image3.jpg">
+                    <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                    <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                        beatae, magnam similique?
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                    </svg>
+                </div>
             </div>
         </div>
-    </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const hoverableDivs = document.querySelectorAll('#hoverable-div');
-        
-            hoverableDivs.forEach(div => {
-                div.addEventListener('mouseenter', function() {
-                    hoverableDivs.forEach(otherDiv => {
-                        if (otherDiv !== div) {
-                            otherDiv.classList.add('opacity-30');
-                        }
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const hoverableDivs = document.querySelectorAll('#hoverable-div');
+            
+                hoverableDivs.forEach(div => {
+                    div.addEventListener('mouseenter', function() {
+                        hoverableDivs.forEach(otherDiv => {
+                            if (otherDiv !== div) {
+                                otherDiv.classList.add('opacity-30');
+                            }
+                        });
                     });
-                });
-        
-                div.addEventListener('mouseleave', function() {
-                    hoverableDivs.forEach(otherDiv => {
-                        if (otherDiv !== div) {
-                            otherDiv.classList.remove('opacity-30');
-                        }
+            
+                    div.addEventListener('mouseleave', function() {
+                        hoverableDivs.forEach(otherDiv => {
+                            if (otherDiv !== div) {
+                                otherDiv.classList.remove('opacity-30');
+                            }
+                        });
                     });
                 });
             });
-        });
-    </script>       -->
+        </script>       -->
 
-    <div class="flex justify-center items-center h-screen">
-        <div id="counter" class="inline-block text-white text-5xl bold p-2 font-mono">15.24</div>
-    </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var targetNumber = parseFloat(document.getElementById('counter').textContent);
-          
-            function updateCounter() {
-              var counterElement = document.getElementById('counter');
-              var currentValue = parseFloat(counterElement.textContent);
-              var decimal = 0;
-              if (currentValue % 1 !== 0) {
-                decimal = currentValue.toString().split('.')[1].length;
-              }
-              counterElement.Counter = 0.0;
-              var start = Date.now();
-              var end = start + 2000; // Duration of 2000 milliseconds (2 seconds)
-          
-              function update() {
-                var now = Date.now();
-                var remaining = Math.max(0, end - now);
-                var progress = 1 - (remaining / 2000); // Adjust 2000 to match the duration
-                counterElement.textContent = (currentValue * progress).toFixed(decimal);
-                if (progress < 1) {
-                  requestAnimationFrame(update);
+    <!-- Code of the animated number counter -->
+        <!-- <div class="flex justify-center items-center h-screen">
+            <div id="counter" class="inline-block text-white text-5xl bold p-2 font-mono">2.3</div>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var targetNumber = parseFloat(document.getElementById('counter').textContent);
+            
+                function updateCounter() {
+                var counterElement = document.getElementById('counter');
+                var currentValue = parseFloat(counterElement.textContent);
+                var decimal = 0;
+                if (currentValue % 1 !== 0) {
+                    decimal = currentValue.toString().split('.')[1].length;
                 }
-              }
-          
-              update();
-            }
-          
-            updateCounter();
-          });
-    </script>
+                counterElement.Counter = 0.0;
+                var start = Date.now();
+                var end = start + 2000; // Duration of 2000 milliseconds (2 seconds)
+            
+                function update() {
+                    var now = Date.now();
+                    var remaining = Math.max(0, end - now);
+                    var progress = 1 - (remaining / 2000); // Adjust 2000 to match the duration
+                    counterElement.textContent = (currentValue * progress).toFixed(decimal);
+                    if (progress < 1) {
+                    requestAnimationFrame(update);
+                    }
+                }
+            
+                update();
+                }
+            
+                updateCounter();
+            });
+        </script> -->
+    
+        <!-- Code of 2 examples of Parallax effect, one from Web Dev Simplify and another based on the website of the game 'FIREWATCH' -->
+    
+        <div id="parallax" style="perspective: 10px;" class="h-screen overflow-y-auto overflow-x-hidden">
+            <div style="transform-style: preserve-3d;" class="relative flex justify-center items-center h-full w-screen -z-10">
+                <img src="./85.png" style="transform: translateZ(-100px) scale(11);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./75.png" style="transform: translateZ(-82px) scale(9.2);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./65.png" style="transform: translateZ(-50px) scale(6);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./55.png" style="transform: translateZ(-38px) scale(4.8);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./45.png" style="transform: translateZ(-23px) scale(3.3);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./35.png" style="transform: translateZ(-15px) scale(2.5);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./25.png" style="transform: translateZ(-10px) scale(2);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./15.png" style="transform: translateZ(-3.5px) scale(1.35);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./5.png" style="transform: translateZ(-0px) scale(1.01);" class="absolute h-full w-full object-cover -z-10">
+                <!-- <img src="./Mountain.png" style="transform: translateZ(-15px) scale(2.5);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./Trees.png" style="transform: translateZ(-5px) scale(1.5);" class="absolute h-full w-full object-cover -z-10">
+                <h1 class="text-[7rem] text-white drop-shadow-[0_0_5px_rgba(255,0,0,1)]">Welcome!</h1> -->
+                </div>
+            <div class="text-[2rem] bg-[#210002] p-8 text-white">
+                <!-- Code of the mouse tracking hover -->
+                <div id="circle"
+                        class="z-10 fixed flex justify-center items-center rounded-full h-28 w-28 shadow-[0_0_10px_0_rgba(255,255,255,1)] bg-white text-black text-sm pointer-events-none mix-blend-exclusion transition-all ease-out duration-500">
+                    Read More
+                </div>
+                <div class="flex justify-center mt-32">
+                    <div class="grid grid-cols-3 gap-3 text-white">
+                        <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                            <img class="h-full w-full" src="./Image1.png">
+                            <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                            <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                                beatae, magnam similique?
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                            </svg>
+                        </div>
+                        <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                            <img class="h-full w-full" src="./Image2.png">
+                            <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                            <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                                beatae, magnam similique?
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                            </svg>
+                        </div>
+                        <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                            <img class="h-full w-full" src="./Image3.jpg">
+                            <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                            <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                                beatae, magnam similique?
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div id="counter" class="inline-block text-white text-5xl bold p-2 font-mono">2.3</div>
+                </div>
+                <script>
+                    const circle = document.getElementById('circle');
+                    const parallax = document.getElementById('parallax');
+                    document.addEventListener('mousemove', (e) => {
+                        const height = circle.offsetHeight;
+                        const width = circle.offsetWidth;
+
+                        const mouseX = e.clientX + parallax.scrollLeft;
+                        const mouseY = e.clientY + parallax.scrollTop;
+
+                        circle.style.left = `${mouseX - width / 2}px`;
+                        circle.style.top = `${mouseY - height / 2}px`;
+                    })
+
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const hoverableDivs = document.querySelectorAll('#hoverable-div');
+                    
+                        hoverableDivs.forEach(div => {
+                            div.addEventListener('mouseenter', function() {
+                                hoverableDivs.forEach(otherDiv => {
+                                    if (otherDiv !== div) {
+                                        otherDiv.classList.add('opacity-30');
+                                    }
+                                });
+                            });
+                    
+                            div.addEventListener('mouseleave', function() {
+                                hoverableDivs.forEach(otherDiv => {
+                                    if (otherDiv !== div) {
+                                        otherDiv.classList.remove('opacity-30');
+                                    }
+                                });
+                            });
+                        });
+                    });
+
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var targetNumber = parseFloat(document.getElementById('counter').textContent);
+                    
+                        function updateCounter() {
+                        var counterElement = document.getElementById('counter');
+                        var currentValue = parseFloat(counterElement.textContent);
+                        var decimal = 0;
+                        if (currentValue % 1 !== 0) {
+                            decimal = currentValue.toString().split('.')[1].length;
+                        }
+                        counterElement.Counter = 0.0;
+                        var start = Date.now();
+                        var end = start + 2000; // Duration of 2000 milliseconds (2 seconds)
+                    
+                        function update() {
+                            var now = Date.now();
+                            var remaining = Math.max(0, end - now);
+                            var progress = 1 - (remaining / 2000); // Adjust 2000 to match the duration
+                            counterElement.textContent = (currentValue * progress).toFixed(decimal);
+                            if (progress < 1) {
+                            requestAnimationFrame(update);
+                            }
+                        }
+                    
+                        update();
+                        }
+                    
+                        updateCounter();
+                    });
+                </script>
+            </div>
+        </div>
 </body>
 </html>
