@@ -128,24 +128,46 @@
     
         <!-- Code of 2 examples of Parallax effect, one from Web Dev Simplify and another based on the website of the game 'FIREWATCH' -->
     
-        <!-- scale(11)
-        scale(9.2)
-        scale(6)
-        scale(4.8) -->
+        <!--
+            <img src="./85.png" style="transform: translateZ(-100px) scale(11);" class="absolute h-full w-full object-cover">
+            <img src="./75.png" style="transform: translateZ(-82px) scale(9.2);" class="absolute h-full w-full object-cover">
+            <img src="./65.png" style="transform: translateZ(-50px) scale(6);" class="absolute h-full w-full object-cover">
+            <img src="./55.png" style="transform: translateZ(-38px) scale(4.8);" class="absolute h-full w-full object-cover">
+            <img src="./45.png" style="transform: translateZ(-23px) scale(3.3);" class="absolute h-full w-full object-cover">
+            <img src="./35.png" style="transform: translateZ(-15px) scale(2.15);" class="absolute h-full w-full object-cover">
+            <img src="./25.png" style="transform: translateZ(-10px) scale(2);" class="absolute h-full w-full object-cover">
+            <img src="./15.png" style="transform: translateZ(-3.5px) scale(1.35);" class="absolute h-full w-full object-cover">
+            <img src="./5.png" style="transform: translateZ(0px) scale(1.01);" class="absolute h-full w-full object-cover">
+         -->
         <div id="parallax" style="perspective: 10px;" class="h-screen overflow-y-auto overflow-x-hidden">
-            <div style="transform-style: preserve-3d;" class="relative flex justify-center items-center h-full w-screen -z-10">
-                <img src="./85.png" style="transform: translateZ(-100px) scale(11);" class="absolute h-full w-full object-cover -z-10">
-                <img src="./75.png" style="transform: translateZ(-82px) scale(9.2);" class="absolute h-full w-full object-cover -z-10">
-                <img src="./65.png" style="transform: translateZ(-50px) scale(6);" class="absolute h-full w-full object-cover -z-10">
-                <img src="./55.png" style="transform: translateZ(-38px) scale(4.8);" class="absolute h-full w-full object-cover -z-10">
-                <img src="./45.png" style="transform: translateZ(-23px) scale(3.3);" class="absolute h-full w-full object-cover -z-10">
-                <img src="./35.png" style="transform: translateZ(-15px) scale(2.5);" class="absolute h-full w-full object-cover -z-10">
-                <img src="./25.png" style="transform: translateZ(-10px) scale(2);" class="absolute h-full w-full object-cover -z-10">
-                <img src="./15.png" style="transform: translateZ(-3.5px) scale(1.35);" class="absolute h-full w-full object-cover -z-10">
-                <img src="./5.png" style="transform: translateZ(-0px) scale(1.01);" class="absolute h-full w-full object-cover -z-10">
+            <div class="flex justify-center">
+                <h1 id="bimms" class="absolute mt-56 text-[7rem] text-white drop-shadow-[0_0_5px_rgba(0,136,175,1)] font-extrabold opacity-0 transition-all ease-in duration-1000 z-10">BIM<span class="text-[#6fc3c0]">MS</span></h1>
+                <!-- <h1 id="X" class="absolute text-white text-5xl mt-[340px] drop-shadow-[0_0_8px_rgba(0,136,175,1)] font-extrabold opacity-0 transition-all ease-in delay-1000 duration-1000">X</h1> -->
+                <img id="X" class="absolute h-20 w-20 mt-[375px] drop-shadow-[0_0_8px_rgba(0,136,175,1)] font-extrabold opacity-0 transition-all ease-in delay-1000 duration-1000 z-10" src="./handshake2.svg">
+                <img id="cts" class="absolute h-80 w-80 mt-[335px] drop-shadow-[0_0_3px_rgba(0,136,175,1)] opacity-0 transition-all ease-in delay-[2000ms] duration-1000 z-10" src="./cts.svg">
+                <img class="h-screen w-screen shadow-lg shadow-gray-800" src="./bgSara.png">
+                <div class="h-screen fixed object-cover inset-x-0 inset-y-0 bg-gradient-to-r from-[#041C2B] to-[#041C2B] opacity-70"></div>
+            </div>
+            <div style="transform-style: preserve-3d;" class=" relative flex justify-center h-full w-screen -z-10">
+                <!-- <img src="./85.png" style="transform: translateZ(-5000px) scale(6);" class="absolute h-full w-full object-cover">
+                <img src="./75.png" style="transform: translateZ(-4100px) scale(5.1);" class="absolute h-full w-full object-cover">
+                <img src="./65.png" style="transform: translateZ(-2500px) scale(3.5);" class="absolute h-full w-full object-cover">
+                <img src="./55.png" style="transform: translateZ(-1900px) scale(2.9);" class="absolute h-full w-full object-cover">
+                <img src="./45.png" style="transform: translateZ(-1150px) scale(2.15);" class="absolute h-full w-full object-cover">
+                <img src="./35.png" style="transform: translateZ(-750px) scale(1.75);" class="absolute h-full w-full object-cover">
+                <img src="./25.png" style="transform: translateZ(-500px) scale(1.5);" class="absolute h-full w-full object-cover">
+                <img src="./15.png" style="transform: translateZ(-175px) scale(1.175);" class="absolute h-full w-full object-cover">
+                <img src="./5.png" style="transform: translateZ(0px) scale(1.001);" class="absolute h-full w-full object-cover"> -->
                 <!-- <img src="./Mountain.png" style="transform: translateZ(-15px) scale(2.5);" class="absolute h-full w-full object-cover -z-10">
                 <img src="./Trees.png" style="transform: translateZ(-5px) scale(1.5);" class="absolute h-full w-full object-cover -z-10">
                 <h1 class="text-[7rem] text-white drop-shadow-[0_0_5px_rgba(255,0,0,1)]">Welcome!</h1> -->
+                <img src="./bgCut.jpg" style="transform: translateZ(-15px) scale(2.5);" class="absolute h-full w-full object-cover -z-10">
+                <img src="./pngCut2.png" style="transform: translateZ(-5px) scale(1.5);" class="absolute h-full w-full object-cover -z-10">
+                <div class="flex flex-col z-10">
+                    <div id="bimms2" class="flex justify-center mt-10 w-screen text-[7rem] text-white drop-shadow-[0_0_5px_rgba(0,136,175,1)] font-extrabold opacity-0 transition-all ease-in duration-1000">The Future of</div>
+                    <div id="bimms3" class="flex justify-center w-screen text-[7rem] text-[#6fc3c0] drop-shadow-[0_0_5px_rgba(0,136,175,1)] font-extrabold opacity-0 transition-all ease-in delay-1000 duration-1000">Data Centers!</div>
+                </div>
+                <div class="h-screen fixed object-cover inset-x-0 inset-y-0 bg-gradient-to-r from-[#041C2B] to-[#041C2B] opacity-40"></div>
             </div>
             <div class="text-[2rem] bg-[#210002] p-8 text-white">
 
@@ -199,9 +221,48 @@
                     <div id="counter" class="inline-block text-white text-5xl bold p-2 font-mono">2.3</div>
                 </div>
 
+                <!-- Code of the hover of the Cards -->
+                <div class="flex justify-center mt-32">
+                    <div class="grid grid-cols-3 gap-3 text-white">
+                        <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                            <img class="h-full w-full" src="./Image1.png">
+                            <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                            <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                                beatae, magnam similique?
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                            </svg>
+                        </div>
+                        <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                            <img class="h-full w-full" src="./Image2.png">
+                            <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                            <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                                beatae, magnam similique?
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                            </svg>
+                        </div>
+                        <div id="hoverable-div" class="group flex flex-col justify-center hover:-translate-y-16 transition-all duration-500">
+                            <img class="h-full w-full" src="./Image3.jpg">
+                            <h1 class="text-center group-hover:text-yellow-500 transition-all duration-500">PROJECT CONTROLS</h1>
+                            <span class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eum placeat id nemo illum labore ab voluptate provident aut dolorem perferendis ullam natus mollitia nesciunt voluptatibus tempora libero,
+                                beatae, magnam similique?
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-transparent mt-10 h-14 transition-all duration-500 group-hover:-translate-y-8 group-hover:fill-white" viewBox="0 0 448 512">
+                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Scripts of the Mouse Tracker, Card Hovers and Animated Number Counter -->
                 <script>
-                    // Script of the Mouse Tracker
+                     // Script of the Mouse Tracker
                     const circle = document.getElementById('circle');
                     const parallax = document.getElementById('parallax');
                     document.addEventListener('mousemove', (e) => {
@@ -217,6 +278,28 @@
 
                     // Script of the Card Hovers
                     document.addEventListener('DOMContentLoaded', function() {
+                        const element = document.getElementById('bimms');
+                        const x = document.getElementById('X');
+                        const cts = document.getElementById('cts');
+                        const element2 = document.getElementById('bimms2');
+                        const element3 = document.getElementById('bimms3');
+                        
+                        element.classList.remove('opacity-0');
+                        x.classList.remove('opacity-0');
+                        cts.classList.remove('opacity-0');
+                        const observer = new IntersectionObserver(entries => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    element2.classList.remove('opacity-0');
+                                    element3.classList.remove('opacity-0');
+                                    observer.unobserve(entry.target);
+                                }
+                            });
+                        });
+
+                        observer.observe(element2);
+                        observer.observe(element3);
+
                         const hoverableDivs = document.querySelectorAll('#hoverable-div');
                     
                         hoverableDivs.forEach(div => {
